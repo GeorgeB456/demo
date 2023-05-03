@@ -12,6 +12,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
 }
+#particles-js {
+    height: 100%;
+    background: #f00;
+}
 mark {
     background-color: #acff99;
     color:#303291;
