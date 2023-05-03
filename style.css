@@ -1,4 +1,24 @@
-html {
+html, body {
     height: 100%;
     width: 100%;
+}
+body {
+    background-image: url('papertexture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #303291;
+    display: -webkit-flex;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+}
+.pageOne {
+    position: absolute;
+    left: 1%;
+    top: 3%;
+}
+.pageTwo {
+    position: relative;
+    left: 51%;
+    top: 3%;
 }
