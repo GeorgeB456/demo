@@ -12,6 +12,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
 }
+mark {
+    background-color: #acff99;
+    color:#303291;
+}
 .pageOne {
     position: absolute;
     left: 1%;
