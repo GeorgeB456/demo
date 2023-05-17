@@ -12,6 +12,7 @@ body {
     font-family: "ipsumsansregular", sans-serif;
     position: absolute;
     letter-spacing: 1.5px;
+    line-height: 110%;
 }
 @font-face {
     font-family: 'ipsumsansregular';
@@ -45,4 +46,7 @@ mark {
 }
 .header {
     font-size: 30px;
+}
+.subpoint{
+    text-indent: 15px;
 }
