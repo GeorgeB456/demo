@@ -24,19 +24,19 @@ particlesJS(
           },
         },
         color: {
-          value: '#454B1B',
+          value: '#ff0000',
         },
         shape: {
           type: 'polygon',
           stroke: {
             width: 0,
-            color: '#454B1B',
+            color: '#000000',
           },
           polygon: {
             nb_sides: 5,
           },
           image: {
-            src: '',
+            src: 'papertexture.jpg',
             width: 100,
             height: 100,
           },
@@ -52,7 +52,7 @@ particlesJS(
           },
         },
         size: {
-          value: 10,
+          value: 30,
           random: true,
           anim: {
             enable: false,
@@ -120,7 +120,7 @@ particlesJS(
           },
         },
       },
-      retina_detect: true,
+      retina_detect: false,
       config_demo: {
         hide_card: false,
         background_color: '#b61924',

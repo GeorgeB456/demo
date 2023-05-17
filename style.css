@@ -1,12 +1,8 @@
-
-/* ---- particles.js container ---- */
-
 #particles-js{
-    width: 100%;
     height: 100%;
-    background-color: #000000;
-    background-image: url('');
-    background-size: cover;
+    width: 100%;
+    background-image: url('literallynothing.png');
+    background-size: fill;
     background-position: 50% 50%;
     background-repeat: no-repeat;
   }
