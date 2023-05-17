@@ -27,7 +27,7 @@ particlesJS(
           value: '#ff0000',
         },
         shape: {
-          type: 'polygon',
+          type: 'image',
           stroke: {
             width: 0,
             color: '#000000',
@@ -36,7 +36,7 @@ particlesJS(
             nb_sides: 5,
           },
           image: {
-            src: 'papertexture.jpg',
+            src: 'review.png',
             width: 100,
             height: 100,
           },
@@ -52,8 +52,8 @@ particlesJS(
           },
         },
         size: {
-          value: 30,
-          random: true,
+          value: 100,
+          random: false,
           anim: {
             enable: false,
             speed: 40,
