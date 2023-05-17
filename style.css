@@ -37,11 +37,13 @@ mark {
 .pageOne {
     position: absolute;
     left: 1%;
+    right: 51%;
     top: 3%;
 }
 .pageTwo {
     position: relative;
     left: 51%;
+    right:100%;
     top: 3%;
 }
 .header {
