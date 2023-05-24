@@ -2,9 +2,9 @@
     height: 100%;
     width: 100%;
     background-image: url('images/literallynothing.png');
-    background-size: fill;
+    background-size: cover;
     background-position: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
 
   html, body {
