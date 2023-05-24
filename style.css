@@ -3,7 +3,7 @@
     width: 100%;
     background-image: url('literallynothing.png');
     background-size: fill;
-    background-position: 50% 50%;
+    background-position: 100% 100%;
     background-repeat: no-repeat;
   }
 
@@ -33,6 +33,19 @@ body {
 mark {
     background-color: #acff99;
     color:#303291;
+}
+a { 
+    background-color: #ebfff0;
+    transition: background-color 1s ease-out 100ms;
+    border: 2px solid transparent;
+    transition: border 1s;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #acff99;
+    border-spacing: 10px;
+    border-style: solid;
+    border-color: black;
 }
 .pageOne {
     position: absolute;

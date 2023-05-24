@@ -70,9 +70,9 @@ particlesJS(
         },
         move: {
           enable: true,
-          speed: 0,
+          speed: 10,
           direction: 'none',
-          random: false,
+          random: true,
           straight: false,
           out_mode: 'out',
           attract: {
