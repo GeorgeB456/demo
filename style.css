@@ -31,6 +31,14 @@ img {
     filter: drop-shadow(5px 5px 10px gray);
     padding: 0px;
 }
+.backimage {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    height: 200px;
+    width: 200px;
+    opacity: 20%;
+}
 @font-face {
     font-family: 'ipsumsansregular';
     src: url('ipsumsans-regular-webfont.woff2') format('woff2'),
