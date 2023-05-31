@@ -17,7 +17,7 @@ particlesJS(
     {
       particles: {
         number: {
-          value: 1,
+          value: 10,
           density: {
             enable: true,
             value_area: 800,
@@ -36,7 +36,7 @@ particlesJS(
             nb_sides: 5,
           },
           image: {
-            src: 'images/review.png',
+            src: 'images/ant.png',
             width: 100,
             height: 100,
           },
@@ -52,7 +52,7 @@ particlesJS(
           },
         },
         size: {
-          value: 100,
+          value: 10,
           random: false,
           anim: {
             enable: false,
@@ -70,7 +70,7 @@ particlesJS(
         },
         move: {
           enable: true,
-          speed: 10,
+          speed: 1,
           direction: 'none',
           random: true,
           straight: false,
@@ -83,7 +83,7 @@ particlesJS(
         },
       },
       interactivity: {
-        detect_on: 'canvas',
+        detect_on: 'window',
         events: {
           onhover: {
             enable: true,
