@@ -1,3 +1,4 @@
+
 #particles-js{
     height: 100%;
     width: 100%;
@@ -28,6 +29,7 @@ img {
     height: 400px;
     width: 400px;
     filter: drop-shadow(5px 5px 10px gray);
+    padding: 0px;
 }
 @font-face {
     font-family: 'ipsumsansregular';
@@ -43,15 +45,11 @@ mark {
 a { 
     background-color: #ebfff0;
     transition: background-color 1s ease-out 100ms;
-    border: 2px solid transparent;
-    transition: border 1s;
     text-decoration: none;
 }
 a:hover {
     background-color: #acff99;
     border-spacing: 10px;
-    border-style: solid;
-    border-color: black;
 }
 .pageOne {
     position: absolute;
@@ -73,4 +71,28 @@ a:hover {
 }
 .subpoint{
     text-indent: 15px;
+}
+.cursor {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+}
+  
+.cursor2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: black;
+    opacity: .3;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width .3s, height .3s, opacity .3s;
 }
