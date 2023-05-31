@@ -36,7 +36,7 @@ particlesJS(
             nb_sides: 5,
           },
           image: {
-            src: 'review.png',
+            src: 'images/review.png',
             width: 100,
             height: 100,
           },
